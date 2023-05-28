@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'calibri';
+  src: url('../fonts/calibri.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: "calibri";
+}
+
+h1{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+.page-title{
+  text-align: center;
+}
+
+.page-link{
+  color: black;
+}
+
+.img-link{
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.bold-marker{
+  font-size: 24px;
+  margin: 0;
+}
+
+.page-text{
+  font-size: 16px;
+}
+
+.page-img{
+  width: 55%;
+  display: block;
+  margin: 0 auto;
+}
+
+.bkt-list{
+  list-style: none;
+  counter-reset: item;
+  list-style-position: inside;
+  padding-left: 41px;
+}
+
+.bkt-list li::before {
+  display: block;
+  counter-increment: item;
+  content: counter(item) ")";
+  margin: 0 0 -34px -40px;
+}
+
+.bkt-text{
+  margin-left: -20px;
+}
+
+    
